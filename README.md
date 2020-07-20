@@ -43,7 +43,7 @@
 	```
 	sudo ./install.sh
 	```
-然后按照提示进行操作
+	然后按照提示进行操作
 
 	```
 	[centos@ip-172-31-31-202 java]$ sudo app2container init
