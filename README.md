@@ -285,7 +285,7 @@
 	
 	```
 	[centos@ip-172-31-31-202 .aws]$ docker images | grep java-generic-466a359b
-java-generic-466a359b                                            latest              3c526048c504        2 minutes ago       11.5 GB
+	java-generic-466a359b                                            latest              3c526048c504        2 minutes ago       11.5 GB
 	```
 
 	除了生成容器映像之外，`app2container containerize`命令还会生成一个`deploy.json`模板文件. 我们可以在deploy.json模板文件中编辑参数，以更改要在Amazon ECR中注册的映像存储库名称，ECS任务定义参数或Kubernetes应用程序名称。由于本次的测试程序需要暴露`8080`端口，因此在`exposedPorts`项内需要添加暴露的端口和协议。
