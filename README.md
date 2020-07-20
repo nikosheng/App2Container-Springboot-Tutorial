@@ -90,7 +90,7 @@
 	                                "applicationType": "java-generic"
 	                }
 	}
-```
+	```
 
 ### Java 程序分析
 - 在清单命令的JSON输出中找到要转换的应用程序的应用程序ID，然后按如下所示运行`app2container analyze`命令，将Java-app-id替换为您找到的应用程序ID, 本示例为`java-generic-466a359b`
@@ -387,7 +387,7 @@ java-generic-466a359b                                            latest         
 	
 	Hello Spring v1
 	```
-	
+
 ### 清除环境
 
 - 清除应用环境
