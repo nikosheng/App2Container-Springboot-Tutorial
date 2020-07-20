@@ -91,12 +91,14 @@
 	                }
 	}
 ```
+
 ### Java 程序分析
-	- 在清单命令的JSON输出中找到要转换的应用程序的应用程序ID，然后按如下所示运行`app2container analyze`命令，将Java-app-id替换为您找到的应用程序ID, 本示例为`java-generic-466a359b`
+- 在清单命令的JSON输出中找到要转换的应用程序的应用程序ID，然后按如下所示运行`app2container analyze`命令，将Java-app-id替换为您找到的应用程序ID, 本示例为`java-generic-466a359b`
 
 	```
 	sudo app2container analyze --application-id java-generic-466a359b
 	```
+	
 	输出的`analysis.json` 会存储在刚才初始化`app2container`的工作目录中
 	
 	```
@@ -252,10 +254,12 @@
               ],
               "dependencies": {}
           }
-}
+	}
 	```
+	
 ### 应用容器化部署
-	- 在修改完 `analysis.json` 后，可以通过 `app2container containerize` 来进行容器化的转换。
+
+- 在修改完 `analysis.json` 后，可以通过 `app2container containerize` 来进行容器化的转换。
 	
 	
 	```
